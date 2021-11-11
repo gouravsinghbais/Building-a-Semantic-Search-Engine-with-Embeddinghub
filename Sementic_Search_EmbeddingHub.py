@@ -26,8 +26,8 @@ sentences = input_df['headline_text'].values.tolist()
 
 # Each sentence is encoded as a 1-D vector with 78 columns
 sentence_embeddings = model.encode(sentences)
-print('Sample BERT embedding vector - length', len(sentence_embeddings[0]))
-print('Sample BERT embedding vector - note includes negative values', sentence_embeddings[0])
+print('BERT embeddings length:', len(sentence_embeddings[0]))
+print('BERT embedding vector:', sentence_embeddings[0])
 
 ## create a dictionary of embeddings 
 embeddings = dict(zip(sentences, sentence_embeddings))
