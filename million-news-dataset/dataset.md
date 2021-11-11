@@ -1,5 +1,7 @@
-## Content
+## A Million News Headlines 
+Dataset: https://www.kaggle.com/therohk/million-headlines
 
+#### Content
 Format: CSV ; Single File
 
 1. publish_date: Date of publishing for the article in yyyyMMdd format
