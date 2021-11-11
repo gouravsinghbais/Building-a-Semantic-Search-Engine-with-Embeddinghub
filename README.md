@@ -71,5 +71,5 @@ space.multidelete(["a", "b", "c"])
 ```
 
 # References  
-[Semantic Search Engine with Sentence BERT](https://evergreenllc2020.medium.com/semantic-search-engine-with-s-abbfb3cd9377)
-[EmbeddingHub Database](https://docs.featureform.com/)
+- [Semantic Search Engine with Sentence BERT](https://evergreenllc2020.medium.com/semantic-search-engine-with-s-abbfb3cd9377)
+- [EmbeddingHub Database](https://docs.featureform.com/)
