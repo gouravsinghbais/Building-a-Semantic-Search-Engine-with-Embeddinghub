@@ -43,8 +43,6 @@ space.multiset(embeddings)
 
 #-------------------------------------##---------------------------------------------#
 
-## get space where data is stored
-space = hub.get_space("demo")
 
 ## retrieve data from the space
 embed = space.multiget(embeddings.keys())
