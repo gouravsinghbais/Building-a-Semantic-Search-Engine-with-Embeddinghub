@@ -1,0 +1,4 @@
+scipy 
+pandas
+embeddinghub
+sentence_transformers
