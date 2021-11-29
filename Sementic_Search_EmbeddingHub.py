@@ -12,8 +12,8 @@ from sentence_transformers import SentenceTransformer
 model = SentenceTransformer('bert-base-nli-mean-tokens')
 
 ## load the data and create a list of headlines 
-BASE_DIR = '/Users/gouravbais/Downloads/'
-TEXT_DATA_DIR = os.path.join(BASE_DIR, 'million-news-dataset')
+# BASE_DIR = '/Users/gouravbais/Downloads/'
+TEXT_DATA_DIR = os.path.join('million-news-dataset')
 NEWS_FILE_NAME = "abcnews-date-text.csv"
 
 ## read the csv file
