@@ -69,6 +69,8 @@ spcae.delete("a")
 ## delete multiple spaces
 space.multidelete(["a", "b", "c"])
 ```
+And this is not it you can use stored embeddings to train themselves or they can be used to train a Machine Learning model. To find out about it more you can check its implementation [here](https://docs.featureform.com/guide/training), similarly they can be used for the inferencing, to know more about it you can [visit](https://docs.featureform.com/guide/inference).
+
 
 # References  
 - [Semantic Search Engine with Sentence BERT](https://evergreenllc2020.medium.com/semantic-search-engine-with-s-abbfb3cd9377)
