@@ -51,8 +51,17 @@ embed = space.multiget(embeddings.keys())
 getEmbeddings = dict(zip(embeddings.keys(), embed))
 
 ## query to generate headings for 
-query = "share market"
+query = "uni to continue tree disease study"
 
+## get nearest neighbor for the query from embeddings set
+## for this use nearest_neighbor function by providing the query and number of terms you want as result 
+print('Nearest neighbors of the given query:')
+nn_list = space.nearest_neighbors(key = query, num = 3)
+for neighbor in nn_list:
+  print(neighbor)
+
+
+## find the similar headings 
 queries = [query]
 ## generate embeddings for the query 
 query_embeddings = model.encode(queries)
@@ -71,7 +80,7 @@ for query, query_embedding in zip(queries, query_embeddings):
 
     print("\n\n======================\n\n")
     print("Query:", query)
-    print("\nTop 5 most similar sentences in corpus:")
+    print("\nTop 3 most similar sentences in corpus:")
     
     for idx, distance in results[0:number_top_matches]:
         print(sentences[idx].strip(), "(Cosine Score: %.4f)" % (1-distance))
